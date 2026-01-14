@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import CaptchaCheck from "./CaptchaCheck";
 import { ROUTE_NAMES, TOAST_TYPES } from "@/components/utils/constant";
 import { RootState } from "@/store/store";
-import { setLoading, setAuthUser, showToast } from "@/store/appSlice";
+import { setAuthUser, setLoading, showToast } from "@/store/appSlice";
 
 import logo from "../../assets/react.svg";
 

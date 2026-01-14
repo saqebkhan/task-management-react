@@ -22,7 +22,7 @@ const ToastComponent = () => {
 
     const timer = setTimeout(() => {
       dispatch(hideToast());
-    }, 4000);
+    }, 3000);
 
     return () => clearTimeout(timer);
   }, [toast.isVisible, dispatch]);
